@@ -1,10 +1,10 @@
 <?php
 $userid = $_POST['username'];
 $pass = $_POST['password'];
-$host = 'localhost';
-$username = 'root';
-$password = '';
-$database = 'user_ligin_info';
+$host = "sql8.freemysqlhosting.net";
+$username = "sql8632553";
+$password = 'fNNYLTKmFG';
+$database = 'sql8632553';
 $conn = mysqli_connect($host, $username, $password, $database);
  // Check connection
 if (!$conn) {
